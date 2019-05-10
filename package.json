@@ -1,0 +1,19 @@
+{
+  "name": "unit-xchange",
+  "version": "0.1.0",
+  "description": "Unit of measure conversions",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tenka491/unit-xchange.git"
+  },
+  "author": "Shane Connor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tenka491/unit-xchange/issues"
+  },
+  "homepage": "https://github.com/tenka491/unit-xchange#readme"
+}
