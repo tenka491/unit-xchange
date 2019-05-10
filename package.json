@@ -4,7 +4,7 @@
   "description": "Unit of measure conversions",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/tenka491/unit-xchange/issues"
   },
-  "homepage": "https://github.com/tenka491/unit-xchange#readme"
+  "homepage": "https://github.com/tenka491/unit-xchange#readme",
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "jest-cli": "^24.8.0"
+  }
 }
