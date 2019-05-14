@@ -1,14 +1,21 @@
-const cmToMm = (params) => {
-  return params * 10;
+function centimeterToMillimeter(cm){
+  return cm * 10;
 }
 
-const mmToCm = (params) => {
-  return params / 10;
+function millimeterToCentimeter(mm) {
+  return mm / 10;
 }
+
+function centimeterToMeters(cm) {
+  return cm / 100;
+}
+
+
 
 const metric = {
-  cmToMm,
-  mmToCm
+  centimeterToMillimeter,
+  millimeterToCentimeter,
+  centimeterToMeters
 }
 
 module.exports = metric;
