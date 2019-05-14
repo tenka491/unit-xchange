@@ -1,4 +1,4 @@
-const metricToImperial = require('../../src/distance/metricToImperial.distance');
+const metricToImperial = require('../../src/distance/metricToImperial');
 
 test('should xchange cm to inches', () => {
   const answer = 3.937007874015748;
