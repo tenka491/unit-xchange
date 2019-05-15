@@ -1,7 +1,7 @@
-const imperial = require('./src/distance/imperial');
-const metric = require('./src/distance/metric');
-const imperialToMetric = require('./src/distance/imperialToMetric')
-const metricToImperial = require('./src/distance/metricToImperial')
+const imperial = require('./imperial');
+const metric = require('./metric');
+const imperialToMetric = require('./imperialToMetric')
+const metricToImperial = require('./metricToImperial')
 
 const distance = {
   metric,
