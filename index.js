@@ -1,9 +1,10 @@
-const imperial = require('./src/distance/imperial.distance');
-const metric = require('./src/distance/metric.distance');
+const area = require('./src/area/index');
+const distance = require('./src/distance/index');
 
+// TODO: change export name or at least make an alias
 const unitXchange = {
-  imperial,
-  metric
+  area,
+  distance
 };
 
 module.exports = unitXchange;

@@ -3,6 +3,9 @@ const imperial = require('../../src/distance/imperial');
 test('inchesToFeet test', () => {
   expect(imperial.inchesToFeet(36)).toBe(3)
 })
+test('inchesToYards test', () => {
+  expect(imperial.inchesToYards(36)).toBe(1)
+})
 test('inchesToFeet test', () => {
   expect(imperial.inchesToFeet(30)).toBe(2.5)
 })

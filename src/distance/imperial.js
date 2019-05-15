@@ -1,14 +1,19 @@
-const inchesToFeet = (params) => {
-  return params / 12;
+function inchesToFeet(inches) {
+  return inches / 12;
 }
 
-const feetToInches = (params) => {
-  return params * 12;
+function inchesToYards(inches) {
+  return inchesToFeet(inches) / 3;
+}
+
+function feetToInches(feet) {
+  return feet * 12;
 }
 
 
 const imperial = {
   inchesToFeet,
+  inchesToYards,
   feetToInches
 }
 

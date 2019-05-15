@@ -10,8 +10,6 @@ function centimeterToMeters(cm) {
   return cm / 100;
 }
 
-
-
 const metric = {
   centimeterToMillimeter,
   millimeterToCentimeter,
