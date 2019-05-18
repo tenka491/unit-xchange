@@ -1,6 +1,6 @@
 {
   "name": "unit-xchange",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Unit of measure conversions",
   "main": "index.js",
   "scripts": {
