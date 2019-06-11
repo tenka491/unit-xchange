@@ -5,6 +5,8 @@ _**Still in beta use with caution!**_
 
 ```
 yarn add unit-xchange
+or
+npm i unit-xchange
 ```
 
 ```
@@ -18,7 +20,12 @@ uxc.distance.feetToMeter(12);
 ```
 
 ### TODO:
-* add more to imperialToMetric JS
-* add Metric Volume calculations
-* add Metric Area calcs
-* Metric is easier to start with.
+- add more to imperialToMetric JS
+- add Metric Volume calculations
+- add Metric Area calcs
+- Metric is easier to start with.
+
+### Donate
+If you would like to buy me a coffee 
+- [paypal.me/shanetconnor](paypal.me/shanetconnor)
+- [Patreon](https://www.patreon.com/tenkastudio)

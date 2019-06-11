@@ -1,8 +1,14 @@
 {
   "name": "unit-xchange",
   "version": "0.1.6",
-  "description": "Unit of measure conversions",
+  "description": "Unit of measure conversions, converts metric to imperial or visa versa.",
   "main": "index.js",
+  "keywords": [
+    "imperial measurement conversion",
+    "metric measurement conversion",
+    "conversions",
+    "measurement conversions"
+  ],
   "scripts": {
     "test": "jest"
   },
