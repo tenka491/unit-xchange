@@ -10,7 +10,9 @@
     "measurement conversions"
   ],
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "dev": "parcel index.js",
+    "build": "parcel build index.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +26,7 @@
   "homepage": "https://github.com/tenka491/unit-xchange#readme",
   "devDependencies": {
     "jest": "^24.8.0",
-    "jest-cli": "^24.8.0"
+    "jest-cli": "^24.8.0",
+    "parcel-bundler": "^1.12.4"
   }
 }
