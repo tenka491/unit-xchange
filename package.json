@@ -10,7 +10,7 @@
     "measurement conversions"
   ],
   "scripts": {
-    "lint": "eslint ./src",
+    "lint": "eslint src/**",
     "test": "jest"
   },
   "repository": {
