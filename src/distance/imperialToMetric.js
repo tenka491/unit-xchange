@@ -1,4 +1,4 @@
-const units = require('../units');
+import units from '../units';
 
 function feetToMeters(ft) {
   return ft / units.feetPerMeter;
@@ -28,4 +28,4 @@ const imperialToMetric = {
   inchesToMillimeters
 }
 
-module.exports = imperialToMetric;
+export default imperialToMetric;

@@ -1,8 +1,8 @@
 {
   "name": "unit-xchange",
-  "version": "0.1.7",
+  "version": "0.2.0",
   "description": "Unit of measure conversions, converts metric to imperial or visa versa.",
-  "main": "index.js",
+  "main": "src/index.js",
   "keywords": [
     "imperial measurement conversion",
     "metric measurement conversion",
@@ -10,6 +10,7 @@
     "measurement conversions"
   ],
   "scripts": {
+    "lint": "eslint ./src",
     "test": "jest"
   },
   "repository": {
@@ -23,7 +24,13 @@
   },
   "homepage": "https://github.com/tenka491/unit-xchange#readme",
   "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "eslint": "^6.8.0",
     "jest": "^24.8.0",
-    "jest-cli": "^24.8.0"
+    "jest-cli": "^24.8.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
   }
 }

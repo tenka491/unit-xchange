@@ -1,4 +1,4 @@
-const metric = require('../../src/area/metric');
+import metric from '../../src/area/metric';
 
 test('metric.squareMillimeter', () => {
   expect(metric.squareMillimeter(4, 4)).toBe(16)

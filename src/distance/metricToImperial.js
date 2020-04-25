@@ -1,4 +1,4 @@
-const  units = require('../units');
+import units from '../units';
 
 function centimeterToInch(cm) {
   return cm/units.cmPerInch;
@@ -23,4 +23,4 @@ const metricToImperial = {
   meterToFeet
 }
 
-module.exports = metricToImperial;
+export default metricToImperial;

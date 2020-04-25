@@ -1,7 +1,7 @@
-const metric = require('./metric');
+import metric from './metric';
 
 const area = {
   metric
 }
 
-module.exports = area;
+export default area;

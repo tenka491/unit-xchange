@@ -6,4 +6,5 @@ const units = {
   inchesPerFoot: 12,
   pi: Math.PI,
 }
-module.exports = units;
+
+export default units;

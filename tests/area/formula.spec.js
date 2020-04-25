@@ -1,5 +1,5 @@
-const formulas = require('../../src/area/formulas');
+import formulas from '../../src/area/formulas';
 
-test('formulas.sqaureArea', () => {
+test('formulas.squareArea', () => {
   expect(formulas.squareArea(4, 4)).toBe(16)
 })

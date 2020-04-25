@@ -1,4 +1,4 @@
-const imperial = require('../../src/distance/imperial');
+import imperial from '../../src/distance/imperial';
 
 test('inchesToFeet test', () => {
   expect(imperial.inchesToFeet(36)).toBe(3)
