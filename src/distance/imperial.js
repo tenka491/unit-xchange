@@ -15,6 +15,6 @@ const imperial = {
   inchesToFeet,
   inchesToYards,
   feetToInches
-}
+};
 
 export default imperial;

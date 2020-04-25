@@ -8,6 +8,6 @@ const distance = {
   imperial,
   imperialToMetric,
   metricToImperial
-}
+};
 
 export default distance;

@@ -21,6 +21,6 @@ const metricToImperial = {
   centimeterToFeet,
   centimeterToYards,
   meterToFeet
-}
+};
 
 export default metricToImperial;

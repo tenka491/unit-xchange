@@ -4,6 +4,6 @@ function squareArea(width, height) {
 
 const formulas = {
   squareArea
-}
+};
 
 export default formulas;

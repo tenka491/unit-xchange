@@ -5,6 +5,6 @@ const units = {
   feetPerYard: 3,
   inchesPerFoot: 12,
   pi: Math.PI,
-}
+};
 
 export default units;

@@ -35,6 +35,6 @@ const metric = {
   squareMillimeterToCentimeter,
   squareMillimeterToMeter,
   squareCentimeterToMillimeter
-}
+};
 
 export default metric;
