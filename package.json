@@ -10,6 +10,7 @@
     "measurement conversions"
   ],
   "scripts": {
+    "build": "webpack --config webpack.config.js",
     "lint": "eslint src/**",
     "test": "jest"
   },
