@@ -1,5 +1,6 @@
-const formulas = require('./formulas');
-const distance = require('../distance');
+import formulas from './formulas';
+import distance from '../distance';
+
 const {
   millimeterToCentimeter,
   millimeterToMeter,
@@ -34,6 +35,6 @@ const metric = {
   squareMillimeterToCentimeter,
   squareMillimeterToMeter,
   squareCentimeterToMillimeter
-}
+};
 
-module.exports = metric;
+export default metric;

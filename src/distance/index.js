@@ -1,13 +1,13 @@
-const imperial = require('./imperial');
-const metric = require('./metric');
-const imperialToMetric = require('./imperialToMetric')
-const metricToImperial = require('./metricToImperial')
+import imperial from './imperial';
+import metric from './metric';
+import imperialToMetric from './imperialToMetric';
+import metricToImperial from './metricToImperial';
 
 const distance = {
   metric,
   imperial,
   imperialToMetric,
   metricToImperial
-}
+};
 
-module.exports = distance;
+export default distance;

@@ -3,7 +3,7 @@ function millimeterToCentimeter(mm) {
 }
 
 function millimeterToMeter(mm) {
-  return mm * 0.001
+  return mm * 0.001;
 }
 
 function millimeterToKilometer(mm) {
@@ -19,7 +19,7 @@ function centimeterToMeter(cm) {
 }
 
 function centimeterToKilometer(cm) {
-  return centimeterToMeter(cm) * 0.01
+  return centimeterToMeter(cm) * 0.01;
 }
 
 function meterToMillimeter(m) {
@@ -31,7 +31,7 @@ function meterToCentimeter(m) {
 }
 
 function meterToKilometer(m) {
-  return m * 0.001
+  return m * 0.001;
 }
 
 function kilometerToMeter(km) {
@@ -59,6 +59,6 @@ const metric = {
   kilometerToMillimeter,
   kilometerToCentimeter,
   kilometerToMeter
-}
+};
 
-module.exports = metric;
+export default metric;

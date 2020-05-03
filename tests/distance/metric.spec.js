@@ -1,4 +1,4 @@
-const metric = require('../../src/distance/metric')
+import metric from '../../src/distance/metric';
 
 test('millimeterToCentimeter', () => {
   expect(metric.millimeterToCentimeter(40)).toBe(4)

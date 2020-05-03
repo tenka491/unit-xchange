@@ -2,8 +2,8 @@ function squareArea(width, height) {
   return width * height;
 }
 
-formulas = {
+const formulas = {
   squareArea
-}
+};
 
-module.exports = formulas;
+export default formulas;

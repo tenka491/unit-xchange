@@ -1,4 +1,4 @@
-const metricToImperial = require('../../src/distance/metricToImperial');
+import metricToImperial from '../../src/distance/metricToImperial';
 
 test('centimeterToInch', () => {
   const answer = 3.937007874015748;

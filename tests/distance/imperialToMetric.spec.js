@@ -1,4 +1,4 @@
-const imperialToMetric = require('../../src/distance/imperialToMetric')
+import imperialToMetric from '../../src/distance/imperialToMetric';
 
 test('should xchange feet to meters', () => {
   const answer = 3.047999902464003;
