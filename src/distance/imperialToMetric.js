@@ -1,24 +1,14 @@
 import units from '../units';
 
-function feetToMeters(ft) {
-  return ft / units.feetPerMeter;
-}
+const feetToMeters = ft => ft / units.feetPerMeter;
 
-function feetToCentimeters(ft) {
-  return feetToMeters(ft) * 100;
-}
+const feetToCentimeters = ft => feetToMeters(ft) * 100;
 
-function inchesToMeters(inches) {
-  return feetToMeters(inches / 12);
-}
+const inchesToMeters = inches => feetToMeters(inches / 12);
 
-function inchesToCentimeters(inches) {
-  return inches * units.cmPerInch;
-}
+const inchesToCentimeters = inches => inches * units.centimeterPerInch;
 
-function inchesToMillimeters(inches) {
-  return inchesToCentimeters(inches) * 100;
-}
+const inchesToMillimeters = inches => inchesToCentimeters(inches) * 100;
 
 const imperialToMetric = {
   feetToMeters,

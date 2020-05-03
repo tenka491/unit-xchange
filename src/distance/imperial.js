@@ -1,15 +1,8 @@
-function inchesToFeet(inches) {
-  return inches / 12;
-}
+const inchesToFeet = inches => inches / 12;
 
-function inchesToYards(inches) {
-  return inchesToFeet(inches) / 3;
-}
+const inchesToYards = inches => inchesToFeet(inches) / 3;
 
-function feetToInches(feet) {
-  return feet * 12;
-}
-
+const feetToInches = feet => feet * 12;
 
 const imperial = {
   inchesToFeet,

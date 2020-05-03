@@ -7,28 +7,28 @@ const {
   centimeterToMillimeter
 } = distance.metric;
 
-function squareMillimeter(width, height = width) {  
+const squareMillimeter = (width, height = width) => { 
   return formulas.squareArea(width, height);
-}
+};
 
-function squareMillimeterToCentimeter(width, height = width) {
+const squareMillimeterToCentimeter = (width, height = width) => {
   const cmWidth = millimeterToCentimeter(width);
   const cmHeight = millimeterToCentimeter(height);
   return formulas.squareArea(cmWidth, cmHeight);
-}
+};
 
-function squareMillimeterToMeter(width, height = width) {
+const squareMillimeterToMeter = (width, height = width) => {
   const mWidth = millimeterToMeter(width);
   const mHeight = millimeterToMeter(height);
   return formulas.squareArea(mWidth, mHeight);
-}
+};
 
-function squareCentimeterToMillimeter(width, height = width) {
+const squareCentimeterToMillimeter = (width, height = width) => {
   const cmWidth = centimeterToMillimeter(width);
   const cmHeight = centimeterToMillimeter(height);
   return formulas.squareArea(cmWidth, cmHeight);
 
-}
+};
 
 const metric = {
   squareMillimeter,

@@ -1,9 +1,13 @@
 const units = {
-  cmPerInch: 2.54,
-  mPerYard: 1.09361,
+  centimeterPerInch: 2.54,
+  meterPerYard: 1.09361,
+  kilometerPerMile: 1.609344,
+  kilogramPerPound: 0.4535924,
   feetPerMeter: 3.28084,
   feetPerYard: 3,
   inchesPerFoot: 12,
+  milePerKilometer: 0.6213712,
+  poundPerKilogram: 2.204623,
   pi: Math.PI,
 };
 

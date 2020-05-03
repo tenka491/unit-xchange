@@ -1,6 +1,4 @@
-function squareArea(width, height) {
-  return width * height;
-}
+const squareArea = (width, height) => width * height;
 
 const formulas = {
   squareArea
