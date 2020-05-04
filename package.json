@@ -1,6 +1,6 @@
 {
   "name": "unit-xchange",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Unit of measure conversions, converts metric to imperial or visa versa.",
   "main": "src/index.js",
   "keywords": [
