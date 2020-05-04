@@ -17,5 +17,5 @@ test('centimeterToYards', () => {
 
 test('meterToFeet', () => {
   const answer = 32.8084;
-  expect(metricToImperial.meterToFeet(10)).toBe(answer)
+  expect(metricToImperial.meterToFeet(10)).toBe(answer);
 });

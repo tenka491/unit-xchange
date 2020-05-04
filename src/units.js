@@ -5,6 +5,7 @@ const units = {
   kilogramPerPound: 0.4535924,
   feetPerMeter: 3.28084,
   feetPerYard: 3,
+  yardsPerMile: 1760,
   inchesPerFoot: 12,
   milePerKilometer: 0.6213712,
   poundPerKilogram: 2.204623,
