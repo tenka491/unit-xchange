@@ -1,13 +1,34 @@
-const inchesToFeet = inches => inches / 12;
+import units from '../units';
+const { inchesPerFoot, feetPerYard, yardsPerMile } = units;
 
-const inchesToYards = inches => inchesToFeet(inches) / 3;
+const inchesToFeet = inches => inches / inchesPerFoot;
 
-const feetToInches = feet => feet * 12;
+const inchesToYards = inches => inchesToFeet(inches) / feetPerYard;
+
+const inchesToMiles = inches => inchesToYards(inches) / yardsPerMile;
+
+const feetToInches = feet => feet * inchesPerFoot;
+
+const feetToYards = feet => feet / feetPerYard;
+
+const feetToMiles = feet => feetToYards(feet) / yardsPerMile;
+
+const milesToInches = miles => milesToFeet(miles) * inchesPerFoot;
+
+const milesToFeet = miles => milesToYards(miles) * feetPerYard;
+
+const milesToYards = miles => miles * yardsPerMile;
 
 const imperial = {
   inchesToFeet,
   inchesToYards,
-  feetToInches
+  inchesToMiles,
+  feetToInches,
+  feetToYards,
+  feetToMiles,
+  milesToInches,
+  milesToFeet,
+  milesToYards
 };
 
 export default imperial;

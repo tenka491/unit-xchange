@@ -12,6 +12,7 @@
   "scripts": {
     "build": "webpack --config webpack.config.js",
     "lint": "eslint src/**",
+    "lint:tests": "eslint tests/**",
     "test": "jest"
   },
   "repository": {
