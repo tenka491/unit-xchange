@@ -1,25 +1,25 @@
 import metric from '../../src/area/metric';
 
-test('metric.squareMillimeter', () => {
+test('should convert square millimeter test 1', () => {
   expect(metric.squareMillimeter(4, 4)).toBe(16);
 });
 
-test('metric.squareMillimeter', () => {
+test('should convert square millimeter test 2', () => {
   expect(metric.squareMillimeter(5)).toBe(25);
 });
 
-test('metric.squareMillimeterToCentimeter w x h', () => {
+test('should convert square millimeter to centimeter test 1', () => {
   expect(metric.squareMillimeterToCentimeter(40, 40)).toBe(16);
 });
 
-test('metric.squareMillimeterToCentimeter', () => {
+test('should convert square millimeter to centimeter test 2', () => {
   expect(metric.squareMillimeterToCentimeter(40)).toBe(16);
 });
 
-test('metric.squareMillimeterToMeter', () => {
+test('should convert square millimeter to meter', () => {
   expect(metric.squareMillimeterToMeter(4000, 4000)).toBe(16);
 });
 
-test('metric.squareCentimeterToMillimeter', () => {
+test('should convert square centimeter to millimeter', () => {
   expect(metric.squareCentimeterToMillimeter(4, 4)).toBe(1600);
 });

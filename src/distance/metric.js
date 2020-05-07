@@ -16,11 +16,11 @@ const meterToCentimeter = m => m * 100;
 
 const meterToKilometer = m => m * 0.001;
 
-const kilometerToMeter = km => km * 0.001;
+const kilometerToMeter = km => km * 1000;
 
-const kilometerToCentimeter = km => kilometerToMeter(km) * 0.01;
+const kilometerToCentimeter = km => km * 100000;
 
-const kilometerToMillimeter = km => kilometerToCentimeter(km) * 0.01;
+const kilometerToMillimeter = km => km * 1000000;
 
 const metric = {
   millimeterToCentimeter,
